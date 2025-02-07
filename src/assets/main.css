@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Madimi One', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  scrollbar-width: none; /* Firefox */
+}
