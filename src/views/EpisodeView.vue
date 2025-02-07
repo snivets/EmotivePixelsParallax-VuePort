@@ -32,7 +32,12 @@ onMounted(async () => {
 
     <!-- Episode Card -->
     <div v-if="episode" class="w-full min-h-screen flex justify-center items-center">
-      <EpisodeCard :title="episode.title" :date="episode.date" :description="episode.description" />
+      <EpisodeCard
+        :title="episode.title"
+        :date="episode.date"
+        :description="episode.description"
+        :season-string="episode.id"
+      />
     </div>
   </main>
 </template>
